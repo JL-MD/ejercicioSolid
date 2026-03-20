@@ -29,7 +29,7 @@ public class App {
                 "ALTA"
         );
 
-        System.out.println(generador.generar(aviso));
-        System.out.println(generador.generar(incidencia));
+        System.out.println(generador.generarTexto(aviso));
+        System.out.println(generador.generarTexto(incidencia));
     }
 }
